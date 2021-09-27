@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://lpw11.github.io">
-  <title>Archives: 2021 | luwenyi的博客</title>
+  <title>Javascript的基本认识 | luwenyi的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="luwenyi的博客">
-<meta property="og:url" content="https://lpw11.github.io/archives/2021/index.html">
+  <meta name="description" content="程序员应该养成的思维——解决现实世界的问题 程序运行的目的(target) 为达到目的所选定的代码类型(type) 如何使这些代码协同运行(cooperation) 如何做到？ 努力编程，获取语法经验，注重实践，加一点的创造力    JavaScript:完整的动态变成语言 基本用途:  在变量中储存有用的值。比如上文的示例中，我们请求客户输入一个新名字，然后将其储存到 name 变量中 操">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Javascript的基本认识">
+<meta property="og:url" content="https://lpw11.github.io/2021/09/27/Javascript%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86/index.html">
 <meta property="og:site_name" content="luwenyi的博客">
+<meta property="og:description" content="程序员应该养成的思维——解决现实世界的问题 程序运行的目的(target) 为达到目的所选定的代码类型(type) 如何使这些代码协同运行(cooperation) 如何做到？ 努力编程，获取语法经验，注重实践，加一点的创造力    JavaScript:完整的动态变成语言 基本用途:  在变量中储存有用的值。比如上文的示例中，我们请求客户输入一个新名字，然后将其储存到 name 变量中 操">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-09-27T08:36:32.000Z">
+<meta property="article:modified_time" content="2021-09-27T08:37:49.248Z">
 <meta property="article:author" content="卢文毅">
+<meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="luwenyi的博客" type="application/atom+xml">
@@ -156,36 +161,256 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-Javascript的基本认识" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      Javascript的基本认识
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/27/Javascript%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86/" class="archive-article-date">
+
+        
+        <a href="/2021/09/27/Javascript%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86/" class="archive-article-date">
   	<time datetime="2021-09-27T08:36:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-27</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/27/Javascript%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86/">Javascript的基本认识</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <span id="more"></span>
 
-        <div class="article-info info-on-right">
-          
+
+<h4 id="程序员应该养成的思维——解决现实世界的问题"><a href="#程序员应该养成的思维——解决现实世界的问题" class="headerlink" title="程序员应该养成的思维——解决现实世界的问题"></a>程序员应该养成的思维——解决现实世界的问题</h4><ul>
+<li>程序运行的<strong>目的(target)</strong></li>
+<li>为达到目的所选定的<strong>代码类型(type</strong>)</li>
+<li>如何使这些代码<strong>协同运行(cooperation)</strong></li>
+<li>如何做到？<ul>
+<li>努力编程，获取语法经验，注重实践，加一点的创造力</li>
+</ul>
+</li>
+</ul>
+<h4 id="JavaScript-完整的动态变成语言"><a href="#JavaScript-完整的动态变成语言" class="headerlink" title="JavaScript:完整的动态变成语言"></a>JavaScript:完整的动态变成语言</h4><ul>
+<li><p>基本用途:</p>
+<ul>
+<li>在变量中储存有用的值。比如上文的示例中，我们请求客户输入一个新名字，然后将其储存到 <code>name</code> 变量中</li>
+<li>操作一段文本（在编程中称为“字符串”（string））。上文的示例中，我们取字符串 “玩家1：”，然后把它和 <code>name</code> 变量连结起来，创造出完整的文本标签，比如：”玩家1：小明”</li>
+<li>适用于HTML文档，可为网站提供动态交互特性</li>
+<li>简单到幻灯片、照片库、浮动布局和响应按钮点击</li>
+</ul>
+</li>
+<li><p>进阶用途：</p>
+<ul>
+<li>复杂到游戏、<code>2D/3D</code> 动画、大型数据库驱动程序</li>
+</ul>
+</li>
+<li><p><code>javascript</code>的实用工具<a target="_blank" rel="noopener" href="https://blog.csdn.net/ZZQHELLO2018/article/details/106220865">API的定义</a>——已经建立好的一套代码组件，可以让开发者实现原本很难甚至无法实现的程序。就像现成的家具套件之于家居建设，用一些已经切好的木板组装一个书柜，显然比自己设计，寻找合适的木材，裁切至合适的尺寸和形状，找到正确尺寸的螺钉，再组装成书柜要简单得多。</p>
+<ul>
+<li>浏览器应用程序接口<code>(API)</code>——实现丰富的功能<ul>
+<li>动态创建HTML/设置<code>css</code>样式——元素对象.style.样式 = ‘..’——文档对象模型的<code>document.createElement()</code></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/Geolocation"><code>地理位置 API（Geolocation API）</code></a> 获取地理信息</li>
+<li>在网页中直接播放音乐和影片，或用自己的网络摄像头获取录像/从用户的摄像头采集处理视频流—— <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLMediaElement"><code>HTMLMediaElement</code></a> 和 <a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebRTC_API"><code>WebRTC</code></a> 等 <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery">影音类 API</a> </li>
+<li>生成<code>3D</code> 图像与音频样本——<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API"><code>画布（Canvas）</code></a></li>
+</ul>
+</li>
+<li>第三方<code>API</code>——让开发者在自己的站点中整合其他内容提供者的功能<ul>
+<li>像自己想在自己的站点添加<code>YouTube</code>的视频可以调用<code>YouTube</code>提供的接口<a target="_blank" rel="noopener" href="https://dev.twitter.com/overview/documentation">Twitter API</a>/<a target="_blank" rel="noopener" href="https://open.weibo.com/">新浪微博 API</a>可以展示推文</li>
+<li>像自己的网站中需要提供支付的功能就要调取微信钱包的接口进行支付</li>
+</ul>
+</li>
+<li>第三方框架和库<ul>
+<li>框架：<code>vue</code>和react之类的其实bootstrap也算是框架是<code>css</code>的</li>
+<li>库（组件）：就是已经帮你写好你只需要知道你需要是什么然后复制粘贴就可以了</li>
+<li>库和框架最大的区别是：框架是<strong>一堆功能的集合需要引入</strong>然后具备某些整体性的功能比如说<strong>类库原本原生的环境里面是没有这样的标签属性的</strong>，库就是像一些下拉菜单之类功能<strong>直接赋值粘贴</strong>到对应的地方就能看到效果</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>JavaScript的核心特性</p>
+<ul>
+<li><p>变量(存储值的容器,要声明一个变量)</p>
+<ul>
+<li><p>数据声明三个关键字</p>
+<ul>
+<li>var</li>
+<li>let</li>
+<li><code>const</code></li>
+</ul>
+</li>
+<li><p>数据声明的三种方式</p>
+<ul>
+<li>使用关键词 <code>var</code> 。例如 <code>var x = 42</code>。这个语法可以用<strong>来声明局部变量和全局变量</strong></li>
+<li>直接赋值，例如<code>x = 42</code>只会是全局变量</li>
+<li>使用关键词 <code>let</code> 。例如 <code>let y = 13</code>。这个语法可以用来声明块作用域的局部变量</li>
+</ul>
+</li>
+<li><p>变量名的命名规则(变量的名字叫标识符)</p>
+<ul>
+<li>标识符必须以字母、下划线（_）或者美元符号（$）开头</li>
+<li>后续的字符也可以是数字（0-9）</li>
+</ul>
+</li>
+<li><p>变量求值、变量的作用域(全局/局部)、常量、变量提升和函数提升的关系比较密切以后再补充</p>
+<ul>
+<li><strong>一般在进行条件判断的时候会需要用到</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据结构和类型</p>
+<ul>
+<li><p>简单数据类型(五种值类型)</p>
+<ul>
+<li><h3 id="Number"><a href="#Number" class="headerlink" title="Number"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Variables#number">Number</a></h3><ul>
+<li>在 JavaScript 中你<strong>不需要声明一个变量的类型</strong>。当你给一个变量数字赋值时，不需要用引号括起来</li>
+</ul>
+</li>
+<li><h3 id="String"><a href="#String" class="headerlink" title="String"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Variables#string">String</a></h3><ul>
+<li>你需要用单引号或者双引号把值给包起来</li>
+<li>我们可以对<strong>内置方法的字符串</strong>做什么有用的操作（字符串算一个<strong>类的概念（和构造函数是相同的）</strong>我们必须要<strong>实例化</strong>他给一个具体的对象），然后利用内置字符串的方法————把字符串当对象，现在我们重申一遍—在javascript中，一切东西都可以被当作对象——一旦你的<strong>变量成为字符串对象实例</strong>, 你就可以有大量的**<u>原型</u><strong>和</strong>方法**编辑它<ul>
+<li>查找文本字符串的长度</li>
+<li>在字符串中提取子字符串并提取他<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"><code>indexOf()</code></a>/<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/slice"><code>slice()</code></a></li>
+<li>加入和分割字符串</li>
+<li>将字符串中的一个字符替换为另一个字符</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h3 id="Boolean"><a href="#Boolean" class="headerlink" title="Boolean"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Variables#boolean">Boolean</a></h3><ul>
+<li>在适当的代码之后，测试条件是否成立</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>复杂数据类型(三种引用类型)</p>
+<ul>
+<li><h3 id="Array"><a href="#Array" class="headerlink" title="Array"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Variables#array">Array</a></h3><ul>
+<li><p>一个<strong>单个对象</strong>，其中包含很多值，方括号括起来，并用逗号分隔,数组是一个包含了多个值的对象</p>
+</li>
+<li><p>```javascript<br>let myNameArray = [‘Chris’, ‘Bob’, ‘Jim’];<br>let myNumberArray = [10,15,40];</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">        </span><br><span class="line">      - 字符串和数组之间的转化：一个长长的字符串中的原始数据，您可能希望将有用的项目分成更有用的表单[`split()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/split)参数，您要将字符串分隔的字符，并**返回分隔符之间的子串**，作为数组中的项</span><br><span class="line">    </span><br><span class="line">      - </span><br><span class="line">    </span><br><span class="line">    - 对象([Object](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/Variables#object)):对象是**存储在单个分组**中的相关功能的集合:一系列的属性（存储于对象内部的**基础变量**，其中一些的值**(值代表着某些行为？)**无法改变）和方法（存储在对象内部的基础函数）</span><br><span class="line">    </span><br><span class="line">      - 对象（很具体的：刘德华）是一个包含**相关数据**（年龄，家庭....）和**方法**(唱歌(),演戏()....)的集合（通常由一些**变量**和**函数**组成，我们称之为**对象里面的属性**和**方法**）</span><br><span class="line">      - **语法**:一个对象由许多的成员组成，每一个成员都拥有一个名字（像上面的name、age），和一个值（如[&#x27;Bob&#x27;, &#x27;Smith&#x27;]、32）</span><br><span class="line">        - 对象成员的值可以是任意的，在我们的person对象里有字符串(string)，数字(number)，两个数组(array)，两个函数(function)。**前4个成员是资料项目**，被称为对象的属性(property)，后两个成员是函数，**允许对象对资料做一些操作**，被称为对象的方法(method)</span><br><span class="line">    </span><br><span class="line">  - 数据类型的转化</span><br><span class="line">  </span><br><span class="line">- 字面量</span><br><span class="line">  - **[字面量、变量、常量的区别](https://blog.csdn.net/t_1007/article/details/52948796)**</span><br><span class="line">  - **[字面量的定义](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types#%e5%8f%98%e9%87%8f)**</span><br><span class="line">  </span><br><span class="line">- 运算符</span><br><span class="line">  - 算术运算符</span><br><span class="line">    - `Math.pow(7, 3)` 中，`7` 是基数，`3` 是指数 = 7 ** 3</span><br><span class="line">  - 自增自减运算符</span><br><span class="line">  </span><br><span class="line">  - 赋值运算符</span><br><span class="line">  </span><br><span class="line">    - ![image-20210907162439998](C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210907162439998.png)</span><br><span class="line">  </span><br><span class="line">  - 比较运算符</span><br><span class="line">  </span><br><span class="line">    - ```javascript</span><br><span class="line">      ==`和`!=</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>```javascript<br>===<code>/</code>!==</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">  </span><br><span class="line">- 函数(**封装可复用的功能**)</span><br><span class="line"></span><br><span class="line">  - 函数就是对象的方法，**这是不矛盾的**，当我们说使用了某个**对象的方法**的时候，就是调用了浏览器所内置给对象**封装的函数**实现了某些功能——函数称为对象**方法（method）**的一部分，**但函数和方法还是有区别的**</span><br><span class="line">    - 二者区别在于方法是在**对象内定义的函数**（自己定义的？）。浏览器内置函数（方法）和变量（称为属性）存储在**结构化对象**内，以使代码更加高效，易于处理</span><br><span class="line">  - 内置浏览器函数不是核心JavaScript语言的一部分——被定义为**浏览器API**的一部分</span><br><span class="line"></span><br><span class="line">  - 函数返回值：我们什么时候需要返回值</span><br><span class="line">    - **1.只想执行一段程序，就不返回**</span><br><span class="line">      **2.如果你想在程序执行后得到计算过的某些值，就把想要的返回。**</span><br><span class="line"></span><br><span class="line">- 事件(为网页添加**真实的交互能力**,它可以**捕捉浏览器操作(`onclick`)**并运行一些代码做为**响应(事件执行函数)**)</span><br><span class="line"></span><br><span class="line">  - **事件监听器**（onclick）</span><br><span class="line"></span><br><span class="line">    - onclick</span><br><span class="line">    - addEventListener()</span><br><span class="line"></span><br><span class="line">  - **事件处理器**（代码块）</span><br><span class="line"></span><br><span class="line">  - **事件对象**:事件处理函数内部，您可能会看到一个**固定指定名称的参数**，例如`event`，`evt`或简单的`e`</span><br><span class="line"></span><br><span class="line">    - ```javascript</span><br><span class="line">      function bgChange(e) &#123;</span><br><span class="line">        const rndCol = &#x27;rgb(&#x27; + random(255) + &#x27;,&#x27; + random(255) + &#x27;,&#x27; + random(255) + &#x27;)&#x27;;</span><br><span class="line">        e.target.style.backgroundColor = rndCol;</span><br><span class="line">        console.log(e);</span><br><span class="line">      &#125;</span><br><span class="line">      </span><br><span class="line">      btn.addEventListener(&#x27;click&#x27;, bgChange);</span><br></pre></td></tr></table></figure></li>
+<li><p>一个事件对象<code>e</code>——e.target上——指的是按钮本身——事件对象 <code>e</code> 的**<code>target</code>属性<strong>始终是事件</strong>刚刚发生的元素（click到的元素）的引用<strong>——在</strong>按钮上**设置一个随机的背景颜色</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>表达式</p>
+</li>
+<li><p>语句</p>
+<ul>
+<li><p>条件语句：依靠<strong>不同条件</strong>的输入作出决定并且采取行动</p>
+<ul>
+<li><p> <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">if … else语句</a></p>
+</li>
+<li><h3 id="else-if"><a href="#else-if" class="headerlink" title="else if"></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/learn/JavaScript/Building_blocks/conditionals#else_if">else if</a></h3></li>
+<li><p>**<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/learn/JavaScript/Building_blocks/conditionals#switch%E8%AF%AD%E5%8F%A5">swich语句</a>**：注意和if….else…..的区别</p>
+</li>
+<li><h3 id="嵌套if-…-else："><a href="#嵌套if-…-else：" class="headerlink" title="嵌套if … else："></a><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/learn/JavaScript/Building_blocks/conditionals#%E5%B5%8C%E5%A5%97if_..._else">嵌套if … else</a>：</h3><ul>
+<li>以显示更多的选择，具体取决于温度</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>条件判断：知识想知道是true还是false</p>
+<ul>
+<li>比较运算符<ul>
+<li><code>===</code> 和 <code>!==</code> — 判断一个值是否严格等于，或不等于另一个。</li>
+<li><code>&lt;</code> 和 <code>&gt;</code> — 判断一个值是否小于，或大于另一个。</li>
+<li><code>&lt;=</code> 和 <code>&gt;=</code> — 判断一个值是否小于或等于，或者大于或等于另一个。</li>
+</ul>
+</li>
+<li>逻辑运算符<ul>
+<li><code>&amp;&amp;</code> — 逻辑与; 使得并列两个或者更多的表达式成为可能，只有当这些表达式每一个都返回<code>true</code>时，整个表达式才会返回<code>true.</code></li>
+<li><code>||</code> — 逻辑或; 当两个或者更多表达式当中的任何一个返回 <code>true</code> 则整个表达式将会返回 <code>true</code>.</li>
+<li>! — 逻辑非; 对一个布尔值取反, 非true返回false,非false返回true.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>循环语句</p>
+<ul>
+<li><p>for语句</p>
+</li>
+<li><p>while语句</p>
+</li>
+<li><p>do….while….语句</p>
+</li>
+<li><p>foreach()方法</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>JavaScript的运行机制</p>
+<ul>
+<li><p>运行次序</p>
+</li>
+<li><p>解释代码VS编译代码</p>
+<ul>
+<li><strong>解释</strong>（interpret）:代码自上而下运行，且实时返回运行结果。代码在由浏览器执行前，<strong>不需要将其转化为其他形式</strong></li>
+<li><strong>编译</strong>：编译型语言需要先将代码转化（编译）成另一种形式才能运行。比如 C/C++ 先被编译成汇编语言，然后才能由计算机运行。<strong>程序将以二进制的格式运行</strong></li>
+<li>JavaScript的独特之处：<strong>轻量级解释型语言</strong>做即时编译（just-in-time compiling）的技术尽管如此，JavaScript 仍然是一门解释型语言，因为编译过程发生在代码运行中，而非之前</li>
+</ul>
+</li>
+<li><p>服务端代码VS客户端代码</p>
+</li>
+<li><p>动态代码VS静态代码</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps/What_is_JavaScript#%E8%84%9A%E6%9C%AC%E8%B0%83%E7%94%A8%E7%AD%96%E7%95%A5">脚本调用策略</a></p>
+<ul>
+<li><p>什么是JavaScript脚本：</p>
+<ul>
+<li>为了缩短传统的“编写、编译、链接、运行”（edit-compile-link-run）过程而创建的计算机编程语言</li>
+<li>早期的脚本语言经常被称为<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%89%B9%E5%A4%84%E7%90%86">批处理</a>语言或<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/w/index.php?title=%E4%BD%9C%E4%B8%9A%E6%8E%A7%E5%88%B6%E8%AF%AD%E8%A8%80&action=edit&redlink=1">作业控制语言</a>。一个脚本通常是解释运行而非编译</li>
+<li>让开发者藉以编写出<strong>让电脑听命行事的程序</strong>,以简单的方式快速完成某些复杂的事情通常是创造脚本语言的重要原则</li>
+<li>一个常见任务就是把<strong>各种不同的已有组件连接</strong>起来以完成相关任务。大多脚本语言共性是：良好的快速开发，有效率的执行，解释而非编译执行，<strong>和其它语言编写的程序组件之间</strong>通信功能很强大</li>
+</ul>
+</li>
+<li><p>脚本调用一般应用在什么地方？——对HTML页面元素进行控制→次序问题：是在等HTML元素<strong>全部解析完之后</strong>在调用脚本控制？还是在HTML元素解析的<strong>同时</strong>在调用JavaScript脚本来进行控制→这里分<strong>内部</strong>和<strong>外部</strong>两种解决方案</p>
+<ul>
+<li><p>内部：就是内联</p>
+<ul>
+<li><pre><code class="javascript">document.addEventListener(&quot;DOMContentLoaded&quot;, function() &#123;
+  . . .
+&#125;);
+</code></pre>
+</li>
+<li><p>添加事件监听器<strong>它监听<u>浏览器</u>的 “<code>DOMContentLoaded</code>“ 事件</strong>：当HTML文档解释到这里的时候就立刻调用了脚本</p>
+</li>
+</ul>
+</li>
+<li><p>外部：就是把把其他的组件引入到当前的HTML文件中，然后按照文档所提供的的方式进行调用该脚本</p>
+<ul>
+<li>问题：如果把这些脚本放在最后面意味着要把所有的HTML文档全部解释完之后才进行js的调用(<strong>脚本阻塞问题</strong>)，那么就会产生问题：<strong>对于有大量 JavaScript 代码的大型网站，可能会带来显著的性能损耗</strong>→产生了<code>async</code>（异步） 和 <code>defer</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -197,7 +422,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -210,164 +435,104 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://lpw11.github.io/2021/09/27/Javascript%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/27/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" class="archive-article-date">
-  	<time datetime="2021-09-27T08:33:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-27</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2021/09/27/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Markdown基本语法</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/27/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">Markdown基本语法</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/技术//" class="article-tag-list-link color3">技术</a>
-        		</li>
-      		
-		</ul>
-	</div>
+        
+        
+    </div>
+</aside>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/27/%E5%BE%81%E6%96%87%E6%AF%94%E8%B5%9B/" class="archive-article-date">
-  	<time datetime="2021-09-27T08:23:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/27/%E5%BE%81%E6%96%87%E6%AF%94%E8%B5%9B/">征文比赛</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日常</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/日常//" class="article-tag-list-link color3">日常</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/09/10/hello-world/" class="archive-article-date">
-  	<time datetime="2021-09-10T10:33:12.300Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-10</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2021/09/10/hello-world/">New Start</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日常</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/日常//" class="article-tag-list-link color3">日常</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
   
-    </div></section>
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -390,8 +555,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
