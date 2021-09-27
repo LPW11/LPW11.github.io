@@ -158,6 +158,194 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Markdown基本语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/09/27/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">Markdown基本语法</a>
+    </h1>
+  
+
+        
+        <a href="/2021/09/27/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" class="archive-article-date">
+  	<time datetime="2021-09-27T08:33:27.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <span id="more"></span>
+
+<h3 id="Markdown的基本和拓展语法"><a href="#Markdown的基本和拓展语法" class="headerlink" title="Markdown的基本和拓展语法"></a>Markdown的基本和拓展语法</h3><ul>
+<li>用标签的形式使得文章变得有可读性</li>
+<li>Markdown是适配能力很强</li>
+</ul>
+<h3 id="常用的语法"><a href="#常用的语法" class="headerlink" title="常用的语法"></a>常用的语法</h3><ul>
+<li><p><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926192901534.png" alt="image-20210926192901534"></p>
+</li>
+<li><p><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926192958710.png" alt="image-20210926192958710"></p>
+</li>
+<li><p>在引入了图片之后给图片添加了一个超链接的嵌套</p>
+<ul>
+<li>alt text是图片文本的内容给自己一个提示这图片是个什么东西</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>下划线语法</li>
+<li><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926193233392.png" alt="image-20210926193233392"></li>
+</ul>
+<ul>
+<li>引用语法</li>
+<li><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926194032045.png" alt="image-20210926194032045"></li>
+</ul>
+<ul>
+<li><p>链接</p>
+</li>
+<li><p>[  ]表示的到底是什么,还有两个中括号表示的是什么意思</p>
+</li>
+<li><p> Markdown 支持两种形式的链接语法： 行内式和参考式两种形式</p>
+</li>
+<li><p>行内式</p>
+<ul>
+<li><a href=""></a></li>
+<li><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926195120626.png" alt="image-20210926195120626"></li>
+<li>tilte的作用是在我们看Markdown格式的时候能够知道这个网址是一些什么内容方便我们进行添加和修改————也就是相当于注释的作用</li>
+</ul>
+</li>
+<li><p>参考式</p>
+<ul>
+<li><p>[][]</p>
+</li>
+<li><p> 参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号<strong>里面要填入用以辨识链接的标记</strong>：</p>
+</li>
+<li><p>我不知道这有什么特殊的作用用上面的行内式他不香吗</p>
+</li>
+<li><p>在文件的任意处，你可以把<strong>这个标记的链接内容定义</strong>出来：</p>
+<ul>
+<li><p>也就是说第二个括号中的内容是可以自己定义的，但是定义是有格式要求的</p>
+</li>
+<li><p>方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字<br>接着一个冒号<br>接着一个以上的空格或制表符<br>接着链接的网址<br>选择性地接着 title 内容，可以用单引号、双引号或是括弧包着</p>
+</li>
+<li><p>[id]: <a target="_blank" rel="noopener" href="http://example.com/">http://example.com/</a>    “Optional Title Here”</p>
+</li>
+</ul>
+</li>
+<li><p>网址定义只有在产生链接的时候用到，并不会直接出现在文件之中</p>
+<ul>
+<li>也就是说第二个括号中的内容是不会直接显示出来的一般是隐藏起来的</li>
+</ul>
+</li>
+<li><p>链接辨别标签可以有字母、数字、空白和标点符号，但是并不区分大小写，因此下面两个链接是一样的</p>
+<ul>
+<li>所以A和a如果用来做标识符的话是一样的</li>
+</ul>
+</li>
+<li><p><u><strong>隐式链接标记功</strong>能让你可以省略指定链接标记，这种情形下，链接标记会视为等同于链接文字，要用隐式链接标记只要在链接文字后面加上一个空的方括号，如果你要让 “Google” 链接到 google.com，你可以简化成：</u></p>
+<ul>
+<li><p>[Google][]</p>
+</li>
+<li><p>定义连接内容</p>
+</li>
+<li><p>[Google]: <a target="_blank" rel="noopener" href="http://google.com/">http://google.com/</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>围栏快代码</p>
+<ul>
+<li><p>就是一些指令用围栏的形式展现出来</p>
+</li>
+<li><p><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926201256088.png" alt="image-20210926201256088"></p>
+</li>
+<li><p><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926201317579.png" alt="image-20210926201317579"></p>
+</li>
+<li><p>以一种格子的形式展现出来</p>
+</li>
+<li><p><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926201402860.png" alt="image-20210926201402860"></p>
+</li>
+<li><p>   ```  ** 后面的东西表示的是命令行的的什么类型的代码表示突出的是一种什么指令也相当于是一个注释的作用</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li></li>
+<li>表格的形式</li>
+<li><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926201734103.png" alt="image-20210926201734103"></li>
+<li><img src="C:\Users\L\AppData\Roaming\Typora\typora-user-images\image-20210926201800930.png" alt="image-20210926201800930"></li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/技术//" class="article-tag-list-link color3">技术</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/09/27/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-征文比赛" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -252,7 +440,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/10/hello-world/">希望在未来的日子里我的影子伴你身侧与你前行</a>
+      <a class="article-title" href="/2021/09/10/hello-world/">New Start</a>
     </h1>
   
 
@@ -426,6 +614,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">日常</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">技术</a>
               </li>
             
             <div class="clearfix"></div>
